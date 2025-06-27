@@ -18,10 +18,13 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "homepage": "https://lion4ik9.github.io/HW-6"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel-bundler": "^1.12.5"
   }
 }
